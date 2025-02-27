@@ -27,7 +27,8 @@ export default function AboutUs() {
               Dewan Komisaris
               <br />
               <span>&</span>
-              <br /> Direksi Utama
+              <br /> 
+              Direksi Utama
             </h2>
           </div>
         </div>

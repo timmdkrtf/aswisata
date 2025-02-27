@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import LogoMain from "../assets/image/logo/3.png"
 import BgRealtour from "../assets/image/photo/bg-realtour.png"
-// import BgHabatour from "../assets/image/photo/bg-habatour.png"
 import BgRealtour2 from "../assets/image/photo/bg-realtour2.png"
 import BgHabatour2 from "../assets/image/photo/bg-habatour2.png"
 
