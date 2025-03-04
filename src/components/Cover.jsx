@@ -24,12 +24,12 @@ export default function Cover(){
     }, []);
 
     return(
-        <div className={`cover ${fade ? "fade-out" : "fade-in"}`} style={{ backgroundImage: `url(${images[currentImage]})` }}>
+        <div id="cover" className={`cover ${fade ? "fade-out" : "fade-in"}`} style={{ backgroundImage: `url(${images[currentImage]})` }}>
             <div className="container">
                 <div className="row">
                     <div className="content">
                         <img src={LogoMain} />
-                        <p>Abdi Solusi Wisata</p>
+                        <p>PT Abdi Solusi Wisata</p>
                     </div>
                 </div>
             </div>

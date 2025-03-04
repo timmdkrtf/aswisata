@@ -1,9 +1,27 @@
 import LogoMain from "../assets/image/logo/3.png"
+import { useState, useEffect } from "react";
 
 export default function Navbar(){
+
+    const [showNavbar, setShowNavbar] = useState(false);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            const coverHeight = document.getElementById("cover")?.offsetHeight || 0;
+            if (window.scrollY > coverHeight) {
+                setShowNavbar(true);
+            } else {
+                setShowNavbar(false);
+            }
+        };
+
+        window.addEventListener("scroll", handleScroll);
+        return () => window.removeEventListener("scroll", handleScroll);
+    }, []);
+
     return(
         <>
-        <nav className="navbar navbar-expand-lg fixed-top">
+        <nav className={`navbar navbar-expand-lg fixed-top ${showNavbar ? "show" : "hide"}`}>
             <div className="container">
                 <a className="navbar-brand" href="#"><img src={LogoMain} alt="" /></a>
                 {/* <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
