@@ -28,7 +28,7 @@ export default function AboutUs() {
               <br />
               <span>&</span>
               <br /> 
-              Direksi Utama
+              Direktur Utama
             </h2>
           </div>
         </div>
