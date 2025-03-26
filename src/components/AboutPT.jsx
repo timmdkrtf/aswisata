@@ -5,9 +5,10 @@ export default function AboutPT(){
             <div className="container">
                 <div className="row">
                     <div className="content">
-                        <h2>Tentang <span>Perusahaan</span></h2>
-                        <p>PT Abdi Solusi Wisata adalah perusahaan perjalanan yang menghadirkan solusi lengkap untuk berbagai kebutuhan, mulai dari perjalanan religi hingga perjalanan bisnis. Sebagai anak perusahaan PT Thamrin Meyer Corporation, kami berkomitmen untuk memberikan pengalaman perjalanan yang nyaman, bermakna, dan berkelas.</p>
-                        <p>Melalui Habatour, kami menyediakan layanan premium untuk perjalanan ibadah seperti umroh, haji, dan ziarah, memastikan setiap momen penuh ketenangan dan keberkahan. Sementara itu, Realtour hadir sebagai solusi manajemen perjalanan korporat yang membantu merancang perjalanan bisnis dan rekreasi dengan layanan yang efisien, nyaman, dan berkelanjutan. Dengan pengalaman dan dedikasi, kami siap menjadi mitra terpercaya dalam setiap perjalanan Anda.</p>
+                        <h2>Tentang <span>Kami</span></h2>
+                        <p>PT Abdi Solusi Wisata didirikan pada tahun 2023 sebagai bagian dari Thamrin Meyer Corporation.</p>
+                        <p>PT Abdi Solusi Wisata bergerak di bidang pariwisata dengan komitmen untuk memberikan pelayanan berkualitas tinggi serta menciptakan pengalaman wisata yang tidak hanya menyenangkan, tetapi juga edukatif dan berkesan.</p>
+                        <p>Melalui brand Realtour dan Habatour, PT Abdi Solusi Wisata menawarkan berbagai pilihan paket wisata yang mencakup destinasi lokal dan internasional, menghadirkan perjalanan yang sesuai dengan kebutuhan dan preferensi setiap pelanggan.</p>
                     </div>
                 </div>
             </div>

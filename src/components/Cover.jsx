@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 import LogoMain from "../assets/image/logo/3.png"
-import BgRealtour from "../assets/image/photo/bg-realtour.png"
-import BgRealtour2 from "../assets/image/photo/bg-realtour2.png"
-import BgHabatour2 from "../assets/image/photo/bg-habatour2.png"
+import BgRealtour from "../assets/image/photo/1.png"
+import BgRealtour2 from "../assets/image/photo/2.png"
+import BgHabatour2 from "../assets/image/photo/3.png"
 
 const images = [BgRealtour, BgHabatour2, BgRealtour2];
 

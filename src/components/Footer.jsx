@@ -8,7 +8,7 @@ export default function Footer(){
             <div className="container">
                 <div className="row justify-content-between">
                     <div className="col-lg-5 col-md-6 col-12">
-                        <h2>PT Abdi Solusi Wisata</h2>
+                        <h2 style={{marginTop: "-1px"}}>PT Abdi Solusi Wisata</h2>
                         <ul style={{listStyleType:"none", padding:"0"}}>
                             <li className="">
                                 <a href="https://maps.app.goo.gl/R2GLxNgUimPzz5c47" target="_blank" style={{color: "white", textDecoration: "none"}}>
@@ -17,19 +17,19 @@ export default function Footer(){
                             </li>
                             <li className="">
                                 <a href="tel:+622518632170" target="_blank" style={{color: "white", textDecoration: "none"}}>
-                                    <BsFillTelephoneFill className="fs-5" style={{ margin:"-2px 20px 0 0" }} />
+                                    <BsFillTelephoneFill className="fs-5" style={{ margin:"-2px 15px 0 0" }} />
                                     +62 251 8632 170
                                 </a>
                             </li>
                             <li className="">
                                 <a href="https://api.whatsapp.com/send?phone=6281213779357" target="_blank" style={{color: "white", textDecoration: "none"}}>
-                                    <BsWhatsapp className="fs-5" style={{ margin:"-2px 20px 0 0" }} />
+                                    <BsWhatsapp className="fs-5" style={{ margin:"-2px 15px 0 0" }} />
                                     +62 812 1377 9357
                                 </a>
                             </li>
                             <li className="">
                                 <a href="mailto:contact@aswisata.co.id" target="_blank" style={{color: "white", textDecoration: "none"}}>
-                                    <BsFillEnvelopeFill className="fs-5" style={{ margin:"-2px 20px 0 0" }} />
+                                    <BsFillEnvelopeFill className="fs-5" style={{ margin:"-2px 15px 0 0" }} />
                                     contact@aswisata.co.id
                                 </a>
                             </li>
