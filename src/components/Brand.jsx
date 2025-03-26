@@ -7,7 +7,7 @@ export default function Brand(){
             <div className="container">
                 <div className="row">
                     <div className="title">
-                        <h2>Brand Kami</h2>
+                        <h2><span className="fst-italic">Brand</span> Kami</h2>
                     </div>
                     <div className="content">
                         <a href="https://realtour.co.id" target="_blank">
