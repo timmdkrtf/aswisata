@@ -5,7 +5,6 @@ import 'swiper/css/navigation';
 
 import apostrof from "../assets/image/icon-clients/apostrof.png";
 import bahana from "../assets/image/icon-clients/bahama.png";
-import habatour from "../assets/image/icon-clients/habatour.png";
 import halakah from "../assets/image/icon-clients/halakah.png";
 import kronika from "../assets/image/icon-clients/kronika.png";
 import nyamanin from "../assets/image/icon-clients/nyamanin.png";
@@ -99,7 +98,6 @@ const Client = () => {
                 <SwiperSlide className="apostrof"><img src={apostrof} alt="apostrof" /></SwiperSlide>
                 <SwiperSlide className="ask"><img src={ask} alt="ask" /></SwiperSlide>
                 <SwiperSlide className="bahana"><img src={bahana} alt="bahana" /></SwiperSlide>
-                <SwiperSlide className="habatour"><img src={habatour} alt="habatour" /></SwiperSlide>
                 <SwiperSlide className="BBS"><img src={RihlahTK} alt="Rihlah TK" /></SwiperSlide>
                 <SwiperSlide className="halakah"><img src={halakah} alt="halakah" /></SwiperSlide>
                 <SwiperSlide className="kronika"><img src={kronika} alt="kronika" /></SwiperSlide>
