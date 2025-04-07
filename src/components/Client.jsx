@@ -73,7 +73,6 @@ const Client = () => {
                     280: {
                         slidesPerView: 2,
                         centeredSlides: true,
-
                     },
                     380: {
                         slidesPerView: 2,
