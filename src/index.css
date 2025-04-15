@@ -1,4 +1,4 @@
-.landing {
+/* .landing {
   height: 100vh;
   width: 100%;
   display: flex;
@@ -20,7 +20,7 @@
 
 .landing .content img{
   width: 250px;
-}
+} */
 
 body{
   margin: 0;
@@ -155,7 +155,7 @@ body{
 .about-pt .row .content h2{
   font-family: "Lato", serif;
   font-weight: 600;
-  color: #000000;
+  color: #454545;
 }
 
 .about-pt .row .content h2 span{
@@ -179,7 +179,7 @@ body{
   font-family: "Open Sans", serif;
   margin: 15px 0 0 0;
   text-align: justify;
-  color: #545454;
+  color: #454545;
 }
 
 .about-us {
@@ -197,7 +197,7 @@ body{
   font-weight: 800;
   font-size: 36px;
   padding: 0 5px;
-  color: #545454;
+  color: #454545;
 }
 
 .about-us .title h2 span{
@@ -248,7 +248,7 @@ body{
 }
 
 .about-us .row .content-left .text-absolute .title h4{
-  color: #545454;
+  color: #454545;
   font-family: "Open Sans", serif;
   font-weight: 500;
   font-size: 20px;
@@ -305,7 +305,7 @@ body{
 }
 
 .about-us .row .content-right .text-absolute .title h4{
-  color: #545454;
+  color: #454545;
   font-family: "Open Sans", serif;
   font-weight: 500;
   font-size: 20px;
@@ -385,12 +385,40 @@ body{
   width: 200px;
 }
 
+.wrap{
+  position: relative;
+}
+
+.wrap::before{
+  content: "";
+  position: absolute;
+  width: 130px;
+  height: 100px;
+  border-radius: 0 15px 15px 0;
+  background-color: #454545;
+  top: -130px;
+  box-shadow: 6px 0 0 0 #f9b318;
+}
 
 .partners{
   width: 60%;
   margin-top: 80px !important;
   margin-bottom: 80px !important;
   font-family: "Be Vietnam Pro", sans-serif;
+}
+
+.partners h2{
+  margin: 0 0 50px 0;
+  font-weight: 600;
+  font-size: 34px;
+  color: #454545;
+}
+
+.partners h2 span{
+  background-color: #454545;
+  color: #FFFFFF;
+  border-radius: 7px;
+  padding: 3px 8px;
 }
 
 .realtour img{
@@ -514,19 +542,6 @@ body{
   display: flex;
   text-align: center;
   justify-content: center; /* Pusatkan konten dalam slide */
-}
-
-.partners h2{
-  margin: 0 0 50px 0;
-  font-weight: 600;
-  font-size: 34px;
-}
-
-.partners h2 span{
-  background-color: #f9b318;
-  color: #FFFFFF;
-  border-radius: 10px;
-  padding: 3px 8px;
 }
 
 footer{

@@ -54,7 +54,7 @@ const Client = () => {
         }
     }, []);
     return (
-        <>
+        <div className='wrap'>
         <section className="partners max-w-2xl mx-auto py-5 my-5">
             <h2 className="text-3xl text-center font-bold">Klien <span>Kami</span></h2>
             <Swiper
@@ -112,7 +112,7 @@ const Client = () => {
                 <SwiperSlide className="aka"><img src={aka} alt="aka" /></SwiperSlide>
             </Swiper>
         </section>
-        </>
+        </div>
     );
 };
 

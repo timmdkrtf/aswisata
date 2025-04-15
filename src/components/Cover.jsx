@@ -2,9 +2,11 @@ import { useState, useEffect } from "react";
 import LogoMain from "../assets/image/logo/3.png"
 import BgRealtour from "../assets/image/photo/1.png"
 import BgRealtour2 from "../assets/image/photo/2.png"
-import BgHabatour2 from "../assets/image/photo/3.png"
+// import BgRealtour3 from "../assets/image/photo/6.png"
+import BgRealtour4 from "../assets/image/photo/7.png"
+import BgHabatour from "../assets/image/photo/3.png"
 
-const images = [BgRealtour, BgHabatour2, BgRealtour2];
+const images = [BgRealtour, BgHabatour, BgRealtour2, BgRealtour4];
 
 export default function Cover(){
 
