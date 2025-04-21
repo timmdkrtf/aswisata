@@ -743,6 +743,10 @@ footer .bottom{
   }
 }
 @media screen and (max-width: 576px) {
+  .cover{
+    height: 100dvh;
+  }
+
   .about-pt::before{
     width: 90px;
     height: 80px;
